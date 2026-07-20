@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rebet24 Casinò e Scommesse Online | Bonus, Slot e Live</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<meta name="description" content="Rebet24 (rebet 24): casinò online e scommesse sportive su piattaforma E-PLAY24 con concessione ADM. Bonus di benvenuto, slot, casinò live, poker e app mobile.">
+<link rel="alternate" hreflang="it-it" href="https://www.trofeicittadijesolo.it/">
+<link rel="alternate" hreflang="x-default" href="https://www.trofeicittadijesolo.it/">
+<link rel="canonical" href="https://www.trofeicittadijesolo.it/">
+
+<!-- IMG: postere slot reali → assets/casino/ (scaricare via browser, vedi download_in_browser.js) -->
+<!-- AFFILIATE: CTA disattivati ("/referral-link"). Inserisci il link reale nella const AFF. -->
+<link rel="stylesheet" href="/assets/style.css">
+<style>
+.subTop{background:linear-gradient(120deg,#0e1c33,#14203a);border-bottom:1px solid var(--line)}
+.crumbs{font-size:12px;color:var(--mut);padding:14px 0 0}.crumbs a{color:#aeb9d4}.crumbs b{color:var(--ink)}
+.subHero{padding:12px 0 18px}.subHero h1{color:var(--ink);font-size:30px;font-weight:800;line-height:1.2;max-width:820px}
+.clusterNav{background:var(--nav);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:20}
+.clusterNavIn{display:flex;gap:6px 22px;flex-wrap:wrap;padding:12px 20px;font-size:14px}
+.clusterNav a{color:var(--mut);font-weight:700}.clusterNav a:hover{color:var(--ink)}.clusterNav a.on{color:var(--red)}
+.article{max-width:860px;padding:26px 0 10px}
+.article h2{font-size:22px;margin:26px 0 10px;color:var(--ink)}.article h3{font-size:17px;margin:18px 0 8px;color:var(--ink)}
+.article p{color:#c3cbdd;margin-bottom:13px;line-height:1.7}
+.article ul{margin:0 0 14px 20px}.article li{margin-bottom:6px;color:#c3cbdd}
+.article a{color:#6ea8ff;font-weight:600}
+.article .tbl{overflow-x:auto;margin:0 0 16px}
+.article table{width:100%;border-collapse:collapse;font-size:14px}
+.article th,.article td{border:1px solid var(--line);padding:9px 12px;text-align:left;color:#c3cbdd}
+.article th{background:var(--surface);color:var(--ink);font-weight:700}
+.article details.faq{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin-bottom:10px;background:var(--surface)}
+.article details.faq summary{font-weight:700;cursor:pointer;color:var(--ink)}.article details.faq p{margin:8px 0 0}
+.ctaBox{background:linear-gradient(120deg,#14203a,#0e1c33);border:1px solid var(--line);border-radius:14px;padding:20px 24px;margin:22px 0;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.ctaBox b{color:var(--green)}.ctaBox .btn{background:var(--red);color:#fff;padding:11px 22px}
+.clusterFoot{display:flex;gap:8px 18px;flex-wrap:wrap;padding:18px 0;border-top:1px solid var(--line);font-size:13px;margin-top:20px}
+.clusterFoot a{color:#6ea8ff;font-weight:600}
+.appBox{background:linear-gradient(120deg,#14203a,#0e1c33);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:6px 0 24px}
+.appHead{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.appIco{width:64px;height:64px;border-radius:16px;background:#fff;padding:8px;flex:none;box-shadow:0 6px 18px rgba(0,0,0,.4)}
+.appMeta{flex:1;min-width:220px}
+.appName{font-size:20px;font-weight:800;color:var(--ink)}
+.appRate{font-size:13px;color:var(--green);margin:2px 0 12px}.appRate b{color:#ffc93c}
+.appBtns{display:flex;gap:10px;flex-wrap:wrap}
+.appBox .btn.appDl{background:var(--red);color:#fff;padding:11px 18px}
+.appBox .btn.appDl.ios{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.28)}
+.appSpec{width:100%;border-collapse:collapse;margin-top:18px;font-size:14px}
+.appSpec td{border-top:1px solid var(--line);padding:10px 4px;color:#c3cbdd}
+.appSpec td:first-child{color:var(--mut);width:42%}
+.reviews{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:6px 0 20px}
+.rvw{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.rvw-h{display:flex;justify-content:space-between;align-items:center;margin-bottom:7px;gap:8px}
+.rvw-n{font-weight:700;color:var(--ink)}.rvw-s{color:#ffc93c;font-size:13px;letter-spacing:1px;white-space:nowrap}
+.rvw-t{color:#c3cbdd;font-size:14px;margin:0;line-height:1.6}
+.stars{color:#ffc93c;letter-spacing:1px;white-space:nowrap}
+.promoWrap{margin:8px 0 26px}
+.promoGroupT{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut);font-weight:800;margin:16px 0 10px}
+.promoGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.promoTile{display:block;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--surface);transition:.15s}
+.promoTile:hover{transform:translateY(-2px);border-color:var(--red);box-shadow:0 8px 22px rgba(0,0,0,.45)}
+.promoTile img{display:block;width:100%;height:auto}
+@media(max-width:840px){.promoGrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.promoGrid{grid-template-columns:1fr}}
+.article blockquote.note{background:rgba(232,36,45,.09);border-left:3px solid var(--red);border-radius:0 10px 10px 0;padding:12px 16px 12px 18px;margin:0 0 16px}
+.article blockquote.note>*:first-child{margin-top:0}.article blockquote.note p{margin:0 0 6px;color:#d5dcec}.article blockquote.note ul{margin:6px 0 0 18px}
+@media(max-width:640px){.reviews{grid-template-columns:1fr}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Rebet24", "url": "https://www.trofeicittadijesolo.it/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Rebet24", "url": "https://www.trofeicittadijesolo.it/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.trofeicittadijesolo.it/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Cos&#x27;è Rebet24?", "acceptedAnswer": {"@type": "Answer", "text": "Un sito di casino e scommesse sportive online dal 2020, con doppio bonus, oltre 20 metodi di pagamento e app per Android e iPhone."}}, {"@type": "Question", "name": "Rebet24 è affidabile?", "acceptedAnswer": {"@type": "Answer", "text": "Dichiara una licenza ADM, ma accetta cripto e gira su un dominio .it.com, cose insolite per un concessionario ADM. Controlla la licenza prima di depositare."}}, {"@type": "Question", "name": "Rebet24 ha un bonus?", "acceptedAnswer": {"@type": "Answer", "text": "Sì: cashback 25% fino a €500 sullo sport e 100% fino a €500 sul casinò, deposito minimo 10 €. Occhio ai requisiti."}}, {"@type": "Question", "name": "C&#x27;è l&#x27;app Rebet24?", "acceptedAnswer": {"@type": "Answer", "text": "Sì, per Android e iPhone, più il sito mobile da browser."}}]}</script>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="topbar">
+  <div class="topbar__in">
+    <button class="burger" id="burger" type="button" aria-label="Menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><line x1="3" y1="6" x2="21" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="3" y1="12" x2="21" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="3" y1="18" x2="21" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line></svg>
+    </button>
+    <a class="logo" data-aff href="https://api.trofeicittadijesolo.it/login" title="Rebet24"><span class="logo__txt">REBET</span><span class="logo__num">24</span></a>
+    <nav class="nav">
+      <a class="nav__item" data-aff href="https://api.trofeicittadijesolo.it/login">Sport</a>
+      <a class="nav__item" data-aff href="https://api.trofeicittadijesolo.it/login">Live</a>
+      <a class="nav__item nav__item--active" data-aff href="https://api.trofeicittadijesolo.it/login">Casinò</a>
+      <a class="nav__item" data-aff href="https://api.trofeicittadijesolo.it/login">Casinò Live</a>
+      <a class="nav__item" data-aff href="https://api.trofeicittadijesolo.it/login">Poker</a>
+      <a class="nav__item" data-aff href="https://api.trofeicittadijesolo.it/login">Altri giochi</a>
+      <a class="nav__item nav__item--promo" data-aff href="https://api.trofeicittadijesolo.it/login">Promozioni<span class="badge-count">26</span></a>
+    </nav>
+    <div class="topbar__right">
+      
+      
+      <a class="ic-btn ic-btn--hide-m" data-aff href="https://api.trofeicittadijesolo.it/login" aria-label="Impostazioni"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.8"></circle><path d="M19 12a7 7 0 00-.1-1.2l2-1.5-2-3.4-2.3 1a7 7 0 00-2-1.2L16.2 1h-4l-.4 2.7a7 7 0 00-2 1.2l-2.3-1-2 3.4 2 1.5A7 7 0 005 12c0 .4 0 .8.1 1.2l-2 1.5 2 3.4 2.3-1a7 7 0 002 1.2l.4 2.7h4l.4-2.7a7 7 0 002-1.2l2.3 1 2-3.4-2-1.5c.1-.4.1-.8.1-1.2z" stroke="currentColor" stroke-width="1.4"></path></svg></a>
+      <div class="topbar__spacer"></div>
+      <a class="btn btn--login" data-aff href="https://api.trofeicittadijesolo.it/login">Login</a>
+      <a class="btn btn--reg" data-aff href="https://api.trofeicittadijesolo.it/login">Registrati</a>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE DRAWER -->
+<div class="drawer-ov" id="drawerOv" hidden></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer__head"><span class="logo"><span class="logo__txt">REBET</span><span class="logo__num">24</span></span>
+    <button class="drawer__close" id="drawerClose" type="button" aria-label="Chiudi"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line><line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></line></svg></button>
+  </div>
+  <nav class="drawer__nav">
+    <a class="drawer__item" data-aff href="https://api.trofeicittadijesolo.it/login">Sport</a>
+    <a class="drawer__item" data-aff href="https://api.trofeicittadijesolo.it/login">Live</a>
+    <a class="drawer__item drawer__item--active" data-aff href="https://api.trofeicittadijesolo.it/login">Casinò</a>
+    <a class="drawer__item" data-aff href="https://api.trofeicittadijesolo.it/login">Casinò Live</a>
+    <a class="drawer__item" data-aff href="https://api.trofeicittadijesolo.it/login">Poker</a>
+    <a class="drawer__item" data-aff href="https://api.trofeicittadijesolo.it/login">Altri giochi</a>
+    <a class="drawer__item" data-aff href="https://api.trofeicittadijesolo.it/login">Promozioni</a>
+  </nav>
+  <div class="drawer__cta">
+    <a class="btn btn--login" data-aff href="https://api.trofeicittadijesolo.it/login">Login</a>
+    <a class="btn btn--reg" data-aff href="https://api.trofeicittadijesolo.it/login">Registrati</a>
+  </div>
+</aside>
+
+<main class="wrap">
+
+  <!-- HERO CAROUSEL -->
+  <section class="hero">
+    <div class="hero__track" id="hero"></div>
+  </section>
+
+  <!-- SITE SECTIONS -->
+  <section class="sections">
+    <a class="sect sect--1" data-aff href="https://api.trofeicittadijesolo.it/login"><h2>Sport</h2><svg viewBox="0 0 24 24" fill="none" class="sect__ic"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"></circle><path d="M12 3l2.6 2-1 3.2H10.4l-1-3.2L12 3zM4.5 9.5L7 11l-.8 3-2.5.2a9 9 0 01.8-4.7zM7.5 18.5L9 16.2h6l1.5 2.3a9 9 0 01-9 0zM19.5 9.5a9 9 0 01.8 4.7l-2.5-.2-.8-3 2.5-1.5z" fill="currentColor"></path></svg></a>
+    <a class="sect sect--2" data-aff href="https://api.trofeicittadijesolo.it/login"><h2>Sport Live</h2><svg viewBox="0 0 24 24" fill="none" class="sect__ic"><circle cx="12" cy="12" r="2.5" fill="currentColor"></circle><path d="M7 7a7 7 0 000 10M17 7a7 7 0 010 10M4 4a11 11 0 000 16M20 4a11 11 0 010 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></a>
+    <a class="sect sect--3" data-aff href="https://api.trofeicittadijesolo.it/login"><h2>Casinò</h2><svg viewBox="0 0 24 24" fill="none" class="sect__ic"><rect x="4" y="4" width="16" height="16" rx="3" stroke="currentColor" stroke-width="1.8"></rect><circle cx="8.5" cy="8.5" r="1.4" fill="currentColor"></circle><circle cx="15.5" cy="15.5" r="1.4" fill="currentColor"></circle><circle cx="12" cy="12" r="1.4" fill="currentColor"></circle></svg></a>
+    <a class="sect sect--4" data-aff href="https://api.trofeicittadijesolo.it/login"><h2>Casinò Live</h2><svg viewBox="0 0 24 24" fill="none" class="sect__ic"><path d="M12 4a4 4 0 110 8 4 4 0 010-8z" stroke="currentColor" stroke-width="1.8"></path><path d="M4 21a8 8 0 0116 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></svg></a>
+  </section>
+
+  <!-- H1 + LEAD -->
+  <div class="intro">
+    <h1>Rebet24: casinò online e scommesse su un'unica piattaforma</h1>
+    <p>Rebet 24 riunisce slot machine, casinò live, poker e scommesse sportive sulla tecnologia E-PLAY24, operatore con concessione ADM. Qui trovi i giochi più popolari del momento, i tavoli con dealer reali in streaming e le quote sui principali campionati di calcio, tennis e basket. Registrazione in pochi minuti e bonus di benvenuto sia sul casinò che sullo sport.</p>
+  </div>
+
+  <!-- TOP 10 -->
+  <section class="row">
+    <div class="row__head">
+      <h3 class="row__title">Top 10 casinò <small>(11 giochi)</small></h3>
+      <div class="row__nav"><a class="btn btn--ghost btn--sm" data-aff href="https://api.trofeicittadijesolo.it/login">Vedi tutti</a></div>
+    </div>
+    <div class="tiles" id="g-top"></div>
+  </section>
+
+  <!-- SLOT POPOLARI -->
+  <section class="row">
+    <div class="row__head">
+      <h3 class="row__title">Slot popolari <small>(6 giochi)</small></h3>
+      <div class="row__nav"><a class="btn btn--ghost btn--sm" data-aff href="https://api.trofeicittadijesolo.it/login">Vedi tutti</a></div>
+    </div>
+    <div class="tiles" id="g-slot"></div>
+  </section>
+
+  <!-- PROMOZIONI -->
+  <section class="row">
+    <div class="row__head">
+      <h3 class="row__title"><span class="promo-dot"></span>Promozioni</h3>
+      <div class="row__nav"><a class="btn btn--ghost btn--sm" data-aff href="https://api.trofeicittadijesolo.it/login">Vedi tutte</a></div>
+    </div>
+    <div class="promos" id="promos"></div>
+  </section>
+
+  <!-- SEO -->
+  <article class="seo">
+<h2>Cos&#x27;è Rebet24?</h2>
+<p>Rebet24 è un casinò con dentro anche un bookmaker, online dal 2020. Slot e tavoli da un lato, scommesse sportive dall&#x27;altro, tutto sullo stesso conto e in euro. L&#x27;idea funziona: la sera fai girare una slot, nel weekend piazzi la schedina sulla Serie A, e non devi saltare da un sito all&#x27;altro. Comodo, su questo non si discute.</p>
+<p>Poi però guardi la licenza, e lì il quadro si complica. È la prima cosa da chiarire, e conviene farlo adesso: prima di depositare, non dopo aver vinto.</p>
+<h2>Rebet24 in breve</h2>
+<div class="tbl"><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td>Tipo</td><td>Casino + scommesse sportive</td></tr><tr><td>Online dal</td><td>2020</td></tr><tr><td>Bonus</td><td>Sport: cashback 25% fino a 500 € · Casino: 100% fino a 500 €</td></tr><tr><td>Deposito minimo</td><td>10 €</td></tr><tr><td>Pagamenti</td><td>Oltre 20 metodi tra carte, e-wallet e cripto (BTC, ETH)</td></tr><tr><td>App</td><td>Android e iPhone</td></tr><tr><td>Sicurezza</td><td>SSL 256-bit</td></tr><tr><td>Licenza</td><td>Dichiarata ADM, ma con dettagli che non tornano (sotto)</td></tr><tr><td>Lingua e valuta</td><td>Italiano, euro (€)</td></tr></tbody></table></div>
+<h2>Casinò e scommesse, un conto solo</h2>
+<p>Il pezzo forte di Rebet24 è che non ti fa scegliere. C&#x27;è il casinò classico — slot, tavoli, una sala live con i croupier in video — e c&#x27;è la parte scommesse, costruita soprattutto sul calcio, con la Serie A davanti e i campionati esteri a ruota. Se ti piace mischiare una giocata sportiva e qualche slot infrasettimanale, avere tutto sotto lo stesso login toglie un bel po&#x27; di attrito.</p>
+<p>Sui pagamenti Rebet24 va largo: oltre venti metodi, carte ed e-wallet, più Bitcoin ed Ethereum. Per chi usa le cripto è una comodità. È anche, lo diciamo subito, uno degli indizi sulla vera natura del sito.</p>
+<h2>Il bonus di benvenuto, in due</h2>
+<p>Il benvenuto è sdoppiato. Sullo sport ti danno un cashback mensile del 25% fino a 500 €: parte delle perdite del mese torna indietro. Sul casinò invece un classico 100% sul primo deposito fino a 500 €, minimo 10 € per farlo partire. Sulla carta è roba generosa. Il punto è un altro: i requisiti di puntata ballano parecchio a seconda di dove leggi, e alcune condizioni sono state segnalate come poco chiare. Prima di attivare qualsiasi cosa, apri i termini e leggili. I dettagli nella <a href="/bonus/">pagina bonus</a>.</p>
+<h2>La licenza: qui bisogna essere onesti</h2>
+<p>Rebet24 dichiara una licenza ADM, l&#x27;ente che regola il gioco legale in Italia. Solo che tre cose stonano con quella dichiarazione. Il sito accetta criptovalute, e un concessionario ADM italiano non può farlo. L&#x27;indirizzo è un .it.com, non un .it. E qualche portale di valutazione indipendente ha messo in dubbio la validità della licenza.</p>
+<p>Sommati, questi segnali portano da un&#x27;altra parte: un operatore <b>internazionale, con ogni probabilità non AAMS</b>, più che un vero concessionario ADM. Per un giocatore italiano usarlo non è di per sé vietato, ma cambia le tutele. Senza una concessione ADM verificata non hai l&#x27;ombrello dei controlli previsti dalla legge italiana, e se qualcosa va storto sei più scoperto. Il consiglio pratico è banale ma serve: controlla lo stato della licenza sul sito e sul registro ADM prima di versare cifre serie. Ne parliamo per esteso nelle <a href="/recensioni/">recensioni</a>.</p>
+<h2>App e accesso</h2>
+<p>C&#x27;è l&#x27;app per giocare da telefono, sia Android sia iPhone, e in alternativa il sito mobile da browser. L&#x27;accesso al conto è rapido con email e password; la registrazione chiede i dati anagrafici e la verifica dell&#x27;identità prima del primo prelievo. Come si fa passo passo è nelle pagine <a href="/app/">app</a> e <a href="/accesso/">accesso</a>.</p>
+<h2>Pro e contro</h2>
+<p>Pro:</p>
+<ul><li>Casinò e scommesse sullo stesso conto</li><li>Doppio bonus, sport e casinò, con deposito minimo basso (10 €)</li><li>Oltre 20 metodi di pagamento, criptovalute comprese</li><li>App per Android e iPhone, SSL a 256 bit</li></ul>
+<p>Contro:</p>
+<ul><li>Licenza ADM dichiarata ma con più di un segnale da sito non AAMS</li><li>Requisiti dei bonus poco chiari e, per alcune fonti, pesanti</li><li>Fuori dal circuito ADM, mancano le tutele del gioco regolamentato in Italia</li></ul>
+<h2>Domande frequenti</h2>
+<ul><li><b>Cos&#x27;è Rebet24?</b> — Un sito di casino e scommesse sportive online dal 2020, con doppio bonus, oltre 20 metodi di pagamento e app per Android e iPhone.</li><li><b>Rebet24 è affidabile?</b> — Dichiara una licenza ADM, ma accetta cripto e gira su un dominio .it.com, cose insolite per un concessionario ADM. Controlla la licenza prima di depositare.</li><li><b>Rebet24 ha un bonus?</b> — Sì: cashback 25% fino a €500 sullo sport e 100% fino a €500 sul casinò, deposito minimo 10 €. Occhio ai requisiti.</li><li><b>C&#x27;è l&#x27;app Rebet24?</b> — Sì, per Android e iPhone, più il sito mobile da browser.</li></ul>
+<div class="clusterFoot"><a href="/">Home</a><a href="/bonus/">Bonus</a><a href="/recensioni/">Recensioni</a><a href="/accesso/">Accesso</a><a href="/app/">App</a></div>
+</article>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fwrap">
+    <nav class="cluster-foot"><a href="/">Home</a><a href="/bonus/">Bonus</a><a href="/recensioni/">Recensioni</a><a href="/accesso/">Accesso</a><a href="/app/">App</a></nav>
+    <div class="fprov"><span>Provider:</span> Playtech · Pragmatic Play · Play'n GO · Evolution · GreenTube · Spribe · Playson</div>
+    <div class="flow"><span class="age">18+</span> Rebet24 opera sulla piattaforma E-PLAY24 con concessione ADM. Gioca responsabilmente. © 2026 rebet24.it.com</div>
+  </div>
+</footer>
+
+<script>
+// ⚠ Inserisci il link affiliato reale — ora CTA disattivati ("/referral-link").
+const AFF = '#';
+
+// Drawer
+(function(){
+  const ov=document.getElementById('drawerOv'),dr=document.getElementById('drawer'),
+        btn=document.getElementById('burger'),cl=document.getElementById('drawerClose');
+  function open(){dr.classList.add('open');ov.hidden=false;requestAnimationFrame(()=>ov.classList.add('show'));dr.setAttribute('aria-hidden','false');document.body.style.overflow='hidden';}
+  function close(){dr.classList.remove('open');ov.classList.remove('show');dr.setAttribute('aria-hidden','true');document.body.style.overflow='';setTimeout(()=>ov.hidden=true,250);}
+  btn&&btn.addEventListener('click',open);cl&&cl.addEventListener('click',close);ov&&ov.addEventListener('click',close);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape')close();});
+})();
+
+// Host immagini reali (piattaforma E-PLAY24). Le immagini sono in hotlink:
+// se il CDN blocca l'hotlink da un altro dominio, scaricarle in locale (download_in_browser.js).
+const C = 'assets/casino/';
+
+// HERO — banner reali (assets/casino) + fallback CSS sotto. [file, kick, titoloHTML, cta, classe]
+const HERO = [
+  ['20260626134054220_8x7Deplay24.jpg','Bonus di benvenuto Sport','Scommetti <span class="g">10€</span><br>Ricevi <span class="g">30€</span>','Registrati','s--sport'],
+  ['20260306153717927_benvenutocasinoMeplay1.jpg','Bonus di benvenuto Casinò','100% fino a <span class="g">1.000€</span><br>+ 200 giri gratis','Scopri di più','s--casino'],
+  ['20260626170120744_ChisegnavinceDeplay24.jpg','Promo Sport','Chi segna<br><span class="g">vince</span>','Gioca ora!','s--sport'],
+  ['20260610143329049_ruotamundialDeplay.jpg','Mundial','La ruota<br><span class="g">Mundial</span>','Gioca ora!','s--vip'],
+];
+document.getElementById('hero').innerHTML = HERO.map(h=>`<a class="slide ${h[4]}" data-aff href="/referral-link"><div class="slide__body"><span class="slide__kick">${h[1]}</span><h2 class="slide__title">${h[2]}</h2><span class="slide__cta btn btn--reg">${h[3]}</span></div><img loading="lazy" src="${C+h[0]}" alt="" onerror="this.remove()"></a>`).join('');
+
+// PROMOZIONI — immagini reali (assets/casino) + fallback CSS. [file, tag, titoloHTML, classe]
+const PROMOS = [
+  ['20260306153717927_benvenutocasinoMeplay1.jpg','Casinò','Bonus benvenuto<br>fino a 1.000€','p--a'],
+  ['20260528121341328_Welcome-Bonus-SportMeplay24.jpg','Sport','Scommetti 10€<br>ricevi 30€','p--b'],
+  ['20260616110637813_ruotamundialMeplay.jpg','Slot','200 giri gratis<br>al 1° deposito','p--c'],
+  ['20260626160712919_ChisegnavinceMeplay24.jpg','Sport','Chi segna<br>vince','p--b'],
+  ['20260624100457217_BonusGamesGlobalMeplay24.jpg','VIP','Cashback<br>settimanale','p--d'],
+  ['20260605171047607_World-Cup-Drops-EPLAY-1.jpg','Casinò','World Cup<br>Drops','p--a'],
+  ['20260615172027882_PromoLiveMonopolyRouletteMEPLAY.jpg','Live','Monopoly<br>Roulette','p--e'],
+];
+document.getElementById('promos').innerHTML = PROMOS.map(p=>`<a class="promo ${p[3]}" data-aff href="/referral-link"><span class="promo__tag">${p[1]}</span><strong>${p[2]}</strong><img loading="lazy" src="${C+p[0]}" alt="" onerror="this.remove()"></a>`).join('');
+
+// GIOCHI — postere slot reali. [nome, path, badge]
+const TOP = [
+  ['Monopoly Roulette',C+'20260605113841126_ImgThumb.jpg','nuovo'],
+  ['Live Blackjack',C+'20210507114556196_BlackjackLobby.jpg',''],
+  ['Crazy Time',C+'20240910133700976_thumb.jpg',''],
+  ['Monopoly Live',C+'20191008161823025_thumb.jpg',''],
+  ['Lightning Roulette',C+'20231018172128481_1EAF9357-4C8A-4FCC-A50E-E858F22595D4.png',''],
+  ['Gates of Olympus 1000',C+'20260304122427211_20240205143629573GatesofOlympus1000.jpg',''],
+  ['Aviator',C+'20230405164126787_thumb.gif',''],
+  ['Sweet Bonanza',C+'20260304124922139_20220729181557618SweetBonanza.jpg',''],
+  ['Book of Ra Deluxe',C+'20190723105441439_thumb.jpg',''],
+  ['Legacy of Dead',C+'20210509095413408_thumb.jpg',''],
+  ['Thunder Coins: Hold and Win',C+'20240624153042859_thumb.jpg','nuovo'],
+];
+const SLOT = [
+  ['Aviator',C+'20230405164126787_thumb.gif',''],
+  ['Gates of Olympus 1000',C+'20260304122427211_20240205143629573GatesofOlympus1000.jpg',''],
+  ['Book of Ra Deluxe',C+'20190723105441439_thumb.jpg',''],
+  ['Sweet Bonanza',C+'20260304124922139_20220729181557618SweetBonanza.jpg',''],
+  ['Legacy of Dead',C+'20210509095413408_thumb.jpg',''],
+  ['Thunder Coins: Hold and Win',C+'20240624153042859_thumb.jpg',''],
+];
+function badge(b){return b==='nuovo'?'<span class="t-badge">Novità</span>':'';}
+function tile(g){
+  return `<a class="tile" data-aff href="/referral-link" aria-label="${g[0]}">
+    <div class="tile__img"><img loading="lazy" src="${g[1]}" alt="${g[0]}" onerror="this.style.display='none';this.parentNode.classList.add('tile__img--ph')"><span class="tile__ph">${g[0]}</span>${badge(g[2])}
+      <span class="tile__play"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span>
+    </div>
+    <div class="tile__name">${g[0]}</div>
+  </a>`;
+}
+document.getElementById('g-top').innerHTML = TOP.map(tile).join('');
+document.getElementById('g-slot').innerHTML = SLOT.map(tile).join('');
+</script>
+</body>
+</html>
